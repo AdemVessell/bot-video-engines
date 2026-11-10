@@ -1,0 +1,35 @@
+{
+  "release": "rc1",
+  "status": "release-candidate",
+  "recipient_tested": false,
+  "repository": "https://github.com/AdemVessell/bot-video-engines",
+  "release_page": "https://github.com/AdemVessell/bot-video-engines/releases/tag/rc1",
+  "owner_code": {
+    "license": "MIT",
+    "copyright": "Adem Vessell",
+    "covers": "Owner-written code and owner-written docs in each engine. Does not relicense third parties."
+  },
+  "third_parties": {
+    "remotion": "Not MIT. See viz-explainer-starter-v1/LICENSES/REMOTION-LICENSE.md",
+    "fonts": "SIL OFL 1.1, plus Apache-2.0 for Special Elite and Permanent Marker in the talking-head director. License texts ship beside the fonts.",
+    "three": "MIT. See viz-explainer-starter-v1/LICENSES/THREE-LICENSE.txt"
+  },
+  "assets": [
+    {
+      "name": "talking-head-director-0.1.0-rc1.tar.gz",
+      "bytes": 1369637,
+      "sha256": "99bd1108476b1a1da5b8e6ae67b8e88fe90f7655594ceac213750bd674c7ee06",
+      "url": "https://github.com/AdemVessell/bot-video-engines/releases/download/rc1/talking-head-director-0.1.0-rc1.tar.gz",
+      "scope": "Source-aligned path: fixed workshop mat, one print, tape; manual segments and word map; optional waveform, colour marker (track), and diagram. No packaged arbitrary matting or generated scenes on that path. scripts/thd is a separate editor. Synthetic talk example is not the author's footage."
+    },
+    {
+      "name": "viz-explainer-starter-v1.tar.gz",
+      "bytes": 202879,
+      "sha256": "873d063ffe1f69657b219721ef705fa9a76f0ee78916ed0a36492d18915f0a3b",
+      "url": "https://github.com/AdemVessell/bot-video-engines/releases/download/rc1/viz-explainer-starter-v1.tar.gz",
+      "scope": "Remotion + Three.js explainer starter. npm ci and a first-render browser download are required to render. Remotion is not MIT."
+    }
+  ],
+  "checksum_file": "SHA256SUMS lists the two tar.gz archives only. It does not hash itself or this manifest.",
+  "bootstrap_state": "bootstrap/published.json is added only after those URLs return these hashes. Until that file exists, these pins are the intended archive hashes, not a published confirmation."
+}
