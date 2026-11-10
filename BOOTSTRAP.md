@@ -1,6 +1,6 @@
 # Bootstrap
 
-Use the `rc1` release archives. Do not reconstruct either engine from memory. Do not treat the links as published until `bootstrap/published.json` exists in this repository and the file's `sha256` values match the bytes you downloaded.
+Use the `rc1` release archives. Do not reconstruct either engine from memory. `bootstrap/published.json` on `main` records that the public `rc1` URLs returned the pins below. The `rc1` git tag stays on source commit `f8a7703350307536d3c27f2e10437471d6d437c7`. This file is a later commit and is not inside either tar.gz. If `published.json` is missing, or its `sha256` values differ from the download, stop.
 
 Release page: https://github.com/AdemVessell/bot-video-engines/releases/tag/rc1
 

@@ -1,0 +1,35 @@
+{
+  "state": "published",
+  "recipient_tested": false,
+  "release": "rc1",
+  "release_page": "https://github.com/AdemVessell/bot-video-engines/releases/tag/rc1",
+  "source_commit": "f8a7703350307536d3c27f2e10437471d6d437c7",
+  "source_commit_url": "https://github.com/AdemVessell/bot-video-engines/commit/f8a7703350307536d3c27f2e10437471d6d437c7",
+  "verified_by": "Public HTTPS download of the rc1 release assets. sha256 of each tar.gz matched SHA256SUMS. This file was written after that check. It is not inside either tar.gz.",
+  "assets": [
+    {
+      "name": "talking-head-director-0.1.0-rc1.tar.gz",
+      "bytes": 1369637,
+      "sha256": "99bd1108476b1a1da5b8e6ae67b8e88fe90f7655594ceac213750bd674c7ee06",
+      "url": "https://github.com/AdemVessell/bot-video-engines/releases/download/rc1/talking-head-director-0.1.0-rc1.tar.gz"
+    },
+    {
+      "name": "viz-explainer-starter-v1.tar.gz",
+      "bytes": 202879,
+      "sha256": "873d063ffe1f69657b219721ef705fa9a76f0ee78916ed0a36492d18915f0a3b",
+      "url": "https://github.com/AdemVessell/bot-video-engines/releases/download/rc1/viz-explainer-starter-v1.tar.gz"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 203,
+      "sha256": "27ec8ac7dd74b09d724659e37ecd68bdf73dcf3fd17dc831f6bf93aa26be2d36",
+      "url": "https://github.com/AdemVessell/bot-video-engines/releases/download/rc1/SHA256SUMS"
+    },
+    {
+      "name": "MANIFEST.json",
+      "bytes": 2138,
+      "sha256": "0c3a4f6787ac207bd9cc7b05282becbb2d3230388d70bc7a49bcedbce8eca2aa",
+      "url": "https://github.com/AdemVessell/bot-video-engines/releases/download/rc1/MANIFEST.json"
+    }
+  ]
+}
