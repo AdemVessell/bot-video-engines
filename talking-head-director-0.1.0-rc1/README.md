@@ -36,8 +36,10 @@ macOS `say` and Linux `espeak-ng` are only for the synthetic `thd selftest` voic
 
 Owner-written code and owner-written docs are MIT, copyright Adem Vessell (`LICENSE`). That grant does not relicense the fonts, Python packages, Whisper weights, ffmpeg, or espeak-ng. Third-party terms stay in `NOTICES.md` and `assets/fonts/licenses/`.
 
-Public archive, once the `rc1` release is uploaded:
+Current public archive (release `rc2`, which GitHub reports as immutable; same engine content as the superseded `rc1` archive, repackaged with the top folder `talking-head-director-0.1.0-rc2/`):
 
-`https://github.com/AdemVessell/bot-video-engines/releases/download/rc1/talking-head-director-0.1.0-rc1.tar.gz`
+`https://github.com/AdemVessell/bot-video-engines/releases/download/rc2/talking-head-director-0.1.0-rc2.tar.gz`
+
+The `rc1` archive of this engine is superseded. Do not pin it. Files inside the `rc2` archive still say `0.1.0-rc1`.
 
 Confirm the hash in the repository `SHA256SUMS` before use. `bootstrap/published.json` is the signal that those bytes were checked on the public URL.

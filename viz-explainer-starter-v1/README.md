@@ -32,7 +32,7 @@ Pinned: remotion/@remotion/cli 4.0.541, react/react-dom 19.1.0, three 0.185.0, t
 - First render: Remotion downloads its own headless browser (network once); run `npm run still` first as a startup check.
 - `npm ci` (via `node setup.mjs`) installs the pinned npm packages. That install is a dependency download, not optional if you render.
 - No Mac, private account, or connector is required. Needs Node >= 18, npm, ffmpeg, and ffprobe on PATH.
-- Public archive, once the `rc1` release is uploaded: `https://github.com/AdemVessell/bot-video-engines/releases/download/rc1/viz-explainer-starter-v1.tar.gz`
+- Public archive (release `rc1`): `https://github.com/AdemVessell/bot-video-engines/releases/download/rc1/viz-explainer-starter-v1.tar.gz`. Release `rc1` is **not** immutable: it was published before release immutability was turned on. The SHA-256 pin in `SHA256SUMS` still detects a changed file, but GitHub does not lock this release.
 - Confirm the hash in the repository `SHA256SUMS` before use. `bootstrap/published.json` is the signal that those bytes were checked on the public URL. Unzip, then `node setup.mjs <new-or-empty-dir>`.
 
 ## Runtime notes

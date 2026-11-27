@@ -1,9 +1,9 @@
 {
-  "release": "rc1",
+  "release": "rc2 (talking-head-director) and rc1 (viz-explainer-starter)",
   "status": "release-candidate",
   "recipient_tested": false,
   "repository": "https://github.com/AdemVessell/bot-video-engines",
-  "release_page": "https://github.com/AdemVessell/bot-video-engines/releases/tag/rc1",
+  "release_page": "https://github.com/AdemVessell/bot-video-engines/releases/tag/rc2",
   "owner_code": {
     "license": "MIT",
     "copyright": "Adem Vessell",
@@ -16,20 +16,43 @@
   },
   "assets": [
     {
-      "name": "talking-head-director-0.1.0-rc1.tar.gz",
-      "bytes": 1369637,
-      "sha256": "99bd1108476b1a1da5b8e6ae67b8e88fe90f7655594ceac213750bd674c7ee06",
-      "url": "https://github.com/AdemVessell/bot-video-engines/releases/download/rc1/talking-head-director-0.1.0-rc1.tar.gz",
-      "scope": "Source-aligned path: fixed workshop mat, one print, tape; manual segments and word map; optional waveform, colour marker (track), and diagram. No packaged arbitrary matting or generated scenes on that path. scripts/thd is a separate editor. Synthetic talk example is not the author's footage."
+      "name": "talking-head-director-0.1.0-rc2.tar.gz",
+      "release": "rc2",
+      "immutable": true,
+      "bytes": 1366594,
+      "sha256": "7673fefe2e4ba1499f15c9960eba4d28ce853a8848114e9b9b4c5f4b1609565b",
+      "url": "https://github.com/AdemVessell/bot-video-engines/releases/download/rc2/talking-head-director-0.1.0-rc2.tar.gz",
+      "scope": "Source-aligned path: fixed workshop mat, one print, tape; manual segments and word map; optional waveform, colour marker (track), and diagram. No packaged arbitrary matting or generated scenes on that path. scripts/thd is a separate editor. Synthetic talk example is not the author's footage.",
+      "note": "Same engine content as the superseded rc1 archive (source commit f8a7703350307536d3c27f2e10437471d6d437c7). Only the top folder name differs. Files inside still say 0.1.0-rc1. See BUILD.md."
     },
     {
       "name": "viz-explainer-starter-v1.tar.gz",
+      "release": "rc1",
+      "immutable": false,
       "bytes": 202879,
       "sha256": "873d063ffe1f69657b219721ef705fa9a76f0ee78916ed0a36492d18915f0a3b",
       "url": "https://github.com/AdemVessell/bot-video-engines/releases/download/rc1/viz-explainer-starter-v1.tar.gz",
       "scope": "Remotion + Three.js explainer starter. npm ci and a first-render browser download are required to render. Remotion is not MIT."
     }
   ],
-  "checksum_file": "SHA256SUMS lists the two tar.gz archives only. It does not hash itself or this manifest.",
-  "bootstrap_state": "bootstrap/published.json is added only after those URLs return these hashes. Until that file exists, these pins are the intended archive hashes, not a published confirmation."
+  "checksum_file": "SHA256SUMS in this repository lists the two current archives only. It does not hash itself or this manifest. The SHA256SUMS attached to each release lists only the archives in that release. These files sit in the same release as the archives, so the pin is the check, not these files.",
+  "bootstrap_state": "bootstrap/published.json records the pins that the public URLs returned. If it is missing, or its hashes differ from a download, do not use the archives.",
+  "release_pages": {
+    "talking-head-director-0.1.0-rc2.tar.gz": "https://github.com/AdemVessell/bot-video-engines/releases/tag/rc2",
+    "viz-explainer-starter-v1.tar.gz": "https://github.com/AdemVessell/bot-video-engines/releases/tag/rc1"
+  },
+  "immutable_releases": {
+    "rc2": true,
+    "rc1": false,
+    "note": "GitHub reports immutable true for rc2. rc1 was published before release immutability was turned on and is not immutable. The SHA-256 pin still detects a changed file in either release."
+  },
+  "superseded": [
+    {
+      "name": "talking-head-director-0.1.0-rc1.tar.gz",
+      "release": "rc1",
+      "bytes": 1369637,
+      "sha256": "99bd1108476b1a1da5b8e6ae67b8e88fe90f7655594ceac213750bd674c7ee06",
+      "note": "Superseded by rc2. Do not pin it. rc1 is not immutable."
+    }
+  ]
 }
